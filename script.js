@@ -4,28 +4,28 @@ const products = [
     quantity: 1,
     icon: 🥥,
     totalPrice: 45,
-    unitPrice: 45
+    description: "45 per unit."
   },
   {
     name: "Coconut Juice — Set of 3",
     quantity: 3,
     icon: 🥥🥥🥥,
     totalPrice: 120,
-    unitPrice: 40
+    description: "40 per unit."
   },
   {
     name: "Coconut Juice — Set of 6",
     quantity: 6,
     icon: 🥥🥥🥥🥥🥥🥥,
     totalPrice: 210,
-    unitPrice: 35
+    description: "35 per unit."
   },
   {
     name: "Coconut Juice — Set of 12",
     quantity: 12,
     icon: 🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥,
     totalPrice: 360,
-    unitPrice: 30
+    description: "30 per unit."
   }
 ];
 

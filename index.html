@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Simple prepared food, drinks and cafe showcase">
+  <title>Daily Café & Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">☕</span>
+      <span>Daily Café</span>
+    </a>
+
+    <nav>
+      <a href="#products">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-button" href="#contact">Visit us</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Fresh every day</p>
+        <h1>Good food.<br><span>Good drinks.</span><br>Simple moments.</h1>
+        <p class="hero-text">
+          Prepared drinks, fresh food and café favorites made for everyday life.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#products">View menu</a>
+          <a class="button secondary" href="#contact">Find us</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-image">
+          <div class="hero-image-content">
+            <span>☕</span>
+            <strong>Freshly prepared</strong>
+            <small>Drinks • Food • Café</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Our selection</p>
+          <h2>Prepared for you</h2>
+        </div>
+        <p>Choose from our everyday favorites.</p>
+      </div>
+
+      <div class="filters" aria-label="Product categories">
+        <button class="filter active" data-category="all">All</button>
+        <button class="filter" data-category="drink">Drinks</button>
+        <button class="filter" data-category="food">Food</button>
+        <button class="filter" data-category="cafe">Café</button>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div>
+        <p class="eyebrow">About us</p>
+        <h2>A small place for everyday favorites.</h2>
+      </div>
+      <p>
+        We prepare simple food and drinks with a focus on freshness, good
+        ingredients and an easy experience. Drop in for a quick drink,
+        breakfast, lunch or a relaxed coffee.
+      </p>
+    </div>
+  </section>
+
+  <section class="section location-section" id="contact">
+    <div class="container location-grid">
+      <div class="map-card">
+        <div class="card-heading">
+          <div>
+            <p class="eyebrow">Location</p>
+            <h2>Come and see us</h2>
+          </div>
+          <span class="pin">●</span>
+        </div>
+
+        <!-- Replace the src below with your Google Maps embed URL -->
+        <iframe
+          title="Daily Café location map"
+          src="https://www.google.com/maps?q=Chiang%20Mai%2C%20Thailand&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <a class="map-link"
+           href="https://www.google.com/maps/search/?api=1&query=Chiang%20Mai%2C%20Thailand"
+           target="_blank" rel="noopener">
+          Open in Google Maps ↗
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's keep in touch.</h2>
+
+        <div class="contact-list">
+          <a href="tel:+66000000000" class="contact-row">
+            <span class="contact-icon">☎</span>
+            <span>
+              <small>Phone</small>
+              <strong>+66 00 000 0000</strong>
+            </span>
+          </a>
+
+          <a href="mailto:hello@dailycafe.example" class="contact-row">
+            <span class="contact-icon">✉</span>
+            <span>
+              <small>Email</small>
+              <strong>hello@dailycafe.example</strong>
+            </span>
+          </a>
+
+          <div class="contact-row">
+            <span class="contact-icon">⌖</span>
+            <span>
+              <small>Address</small>
+              <strong>Chiang Mai, Thailand</strong>
+            </span>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-icon">◷</span>
+            <span>
+              <small>Opening hours</small>
+              <strong>08:00 – 18:00 · Every day</strong>
+            </span>
+          </div>
+        </div>
+
+        <a class="button primary full" href="tel:+66000000000">Call us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Daily Café</span>
+    <span>Fresh food · Drinks · Coffee</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,7 +1,6 @@
 const products = [
   {
     name: "Coconut Juice — Single",
-    quantity: 1,
     category: "coconut",
     icon: "🥥",
     price: 45,
@@ -9,7 +8,6 @@ const products = [
   },
   {
     name: "Coconut Juice — Set of 3",
-    quantity: 3,
     category: "coconut",
     icon: "🥥🥥🥥",
     price: 120,
@@ -17,7 +15,6 @@ const products = [
   },
   {
     name: "Coconut Juice — Set of 6",
-    quantity: 6,
     category: "coconut",
     icon: "🥥🥥🥥🥥🥥🥥",
     price: 210,
@@ -25,7 +22,6 @@ const products = [
   },
   {
     name: "Coconut Juice — Set of 10",
-    quantity: 10,
     category: "coconut",
     icon: "🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥",
     price: 300,
@@ -51,7 +47,6 @@ function renderProducts(category = "all") {
       <div class="product-info">
         <span class="product-category">${categoryName(product.category)}</span>
         <h3>${product.name}</h3>
-        <h3>${product.quantity}</h3>
         <p>${product.description}</p>
         <strong class="price">${product.price}</strong>
       </div>

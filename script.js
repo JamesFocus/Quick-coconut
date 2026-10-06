@@ -2,24 +2,28 @@ const products = [
   {
     name: "Coconut Juice — Single",
     quantity: 1,
+    icon: 🥥,
     totalPrice: 45,
     unitPrice: 45
   },
   {
     name: "Coconut Juice — Set of 3",
     quantity: 3,
+    icon: 🥥🥥🥥,
     totalPrice: 120,
     unitPrice: 40
   },
   {
     name: "Coconut Juice — Set of 6",
     quantity: 6,
+    icon: 🥥🥥🥥🥥🥥🥥,
     totalPrice: 210,
     unitPrice: 35
   },
   {
     name: "Coconut Juice — Set of 12",
     quantity: 12,
+    icon: 🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥,
     totalPrice: 360,
     unitPrice: 30
   }

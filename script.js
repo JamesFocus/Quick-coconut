@@ -1,59 +1,27 @@
 const products = [
   {
-    name: "Iced Latte",
-    category: "drink",
-    icon: "🥤",
-    description: "Espresso, milk and ice.",
-    price: "฿65"
+    name: "Coconut Juice — Single",
+    quantity: 1,
+    totalPrice: 45,
+    unitPrice: 45
   },
   {
-    name: "Fresh Orange",
-    category: "drink",
-    icon: "🍊",
-    description: "Freshly squeezed orange.",
-    price: "฿55"
+    name: "Coconut Juice — Set of 3",
+    quantity: 3,
+    totalPrice: 120,
+    unitPrice: 40
   },
   {
-    name: "Chicken Sandwich",
-    category: "food",
-    icon: "🥪",
-    description: "Toasted bread with chicken.",
-    price: "฿89"
+    name: "Coconut Juice — Set of 6",
+    quantity: 6,
+    totalPrice: 210,
+    unitPrice: 35
   },
   {
-    name: "Fresh Salad",
-    category: "food",
-    icon: "🥗",
-    description: "Crisp vegetables and dressing.",
-    price: "฿79"
-  },
-  {
-    name: "Americano",
-    category: "cafe",
-    icon: "☕",
-    description: "Smooth espresso with water.",
-    price: "฿55"
-  },
-  {
-    name: "Croissant",
-    category: "cafe",
-    icon: "🥐",
-    description: "Buttery, flaky and fresh.",
-    price: "฿49"
-  },
-  {
-    name: "Matcha Latte",
-    category: "drink",
-    icon: "🍵",
-    description: "Creamy premium matcha.",
-    price: "฿75"
-  },
-  {
-    name: "Breakfast Set",
-    category: "food",
-    icon: "🍳",
-    description: "Eggs, toast and fresh fruit.",
-    price: "฿129"
+    name: "Coconut Juice — Set of 12",
+    quantity: 12,
+    totalPrice: 360,
+    unitPrice: 30
   }
 ];
 

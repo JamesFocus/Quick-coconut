@@ -2,7 +2,7 @@ const products = [
   {
     name: "Coconut Juice — Single",
     quantity: 1,
-    category: "one coconut",
+    category: "coconut",
     icon: "🥥",
     price: 45,
     description: "45 per unit."
@@ -10,7 +10,7 @@ const products = [
   {
     name: "Coconut Juice — Set of 3",
     quantity: 3,
-    category: "three coconut",
+    category: "coconut",
     icon: "🥥🥥🥥",
     price: 120,
     description: "40 per unit."
@@ -18,7 +18,7 @@ const products = [
   {
     name: "Coconut Juice — Set of 6",
     quantity: 6,
-    category: "six coconuts",
+    category: "coconut",
     icon: "🥥🥥🥥🥥🥥🥥",
     price: 210,
     description: "35 per unit."
@@ -26,7 +26,7 @@ const products = [
   {
     name: "Coconut Juice — Set of 12",
     quantity: 10,
-    category: "twelves coconuts",
+    category: "coconut",
     icon: "🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥",
     price: 300,
     description: "30 per unit."

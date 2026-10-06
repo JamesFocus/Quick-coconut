@@ -51,6 +51,7 @@ function renderProducts(category = "all") {
       <div class="product-info">
         <span class="product-category">${categoryName(product.category)}</span>
         <h3>${product.name}</h3>
+        <h3>${product.quantity}</h3>
         <p>${product.description}</p>
         <strong class="price">${product.price}</strong>
       </div>

@@ -25,10 +25,10 @@ const products = [
   },
   {
     name: "Coconut Juice — Set of 12",
-    quantity: 12,
+    quantity: 110,
     category: "twelves coconuts",
-    icon: "🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥",
-    price: 360,
+    icon: "🥥🥥🥥🥥🥥🥥🥥🥥🥥🥥",
+    price: 300,
     description: "30 per unit."
   }
 ];
